@@ -22,7 +22,7 @@ function App() {
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={3}>
           <Paper className={classes.paper}>
-            <Grid container justify="flex-start">
+            <Grid container justify="flex-end">
               <Grid item>
                 <Chip label="xs=12" />
               </Grid>
@@ -52,7 +52,7 @@ function App() {
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Paper className={classes.paper}>
-            <Grid container justify="flex-start">
+            <Grid container justify="space-between">
               <Grid item>
                 <Chip label="xs=12" />
               </Grid>
@@ -67,7 +67,7 @@ function App() {
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Paper className={classes.paper}>
-            <Grid container justify="flex-start">
+            <Grid container justify="space-around">
               <Grid item>
                 <Chip label="xs=12" />
               </Grid>
